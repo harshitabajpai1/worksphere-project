@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\employeeservice\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\employeeservice\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\employeeservice\\dtos\\employeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\dtos\\employeeresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\employeeservice\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\employeeservice\\employeeservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\employeeservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\employeeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2503750E-6D87-409F-90EE-949D79BD1DCF}|AuthService\\AuthService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2503750E-6D87-409F-90EE-949D79BD1DCF}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\employeeservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\employeeservice\\employeeservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\employeeservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|c:\\cg_dotnet_harshita\\ltma_project\\ltma\\employeeservice\\migrations\\20260815182323_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3419AF4F-887B-4F6D-9EF3-6D6B7138978B}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\migrations\\20260815182323_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeService\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T05:56:56.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Models\\Employee.cs",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeService\\Models\\Employee.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T05:30:59.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeService\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T05:27:20.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeResponseDto.cs",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\DTOs\\EmployeeResponseDto.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\DTOs\\EmployeeResponseDto.cs",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\DTOs\\EmployeeResponseDto.cs",
+              "RelativeToolTip": "EmployeeService\\DTOs\\EmployeeResponseDto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwBcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T05:25:50.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthService\\Program.cs",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\AuthService\\Program.cs",
+              "RelativeToolTip": "AuthService\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T18:35:17.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EmployeeService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EmployeeService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T18:28:48.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Program.cs",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Program.cs",
+              "RelativeToolTip": "EmployeeService\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T18:20:24.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.csproj",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\EmployeeService.csproj",
+              "RelativeDocumentMoniker": "EmployeeService\\EmployeeService.csproj",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\EmployeeService.csproj",
+              "RelativeToolTip": "EmployeeService\\EmployeeService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-15T18:22:39.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260815182323_InitialCreate.cs",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Migrations\\20260815182323_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EmployeeService\\Migrations\\20260815182323_InitialCreate.cs",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\Migrations\\20260815182323_InitialCreate.cs",
+              "RelativeToolTip": "EmployeeService\\Migrations\\20260815182323_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T18:23:24.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeService",
+              "DocumentMoniker": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\EmployeeService.csproj",
+              "RelativeDocumentMoniker": "EmployeeService\\EmployeeService.csproj",
+              "ToolTip": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\EmployeeService\\EmployeeService.csproj",
+              "RelativeToolTip": "EmployeeService\\EmployeeService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-15T18:28:45.127Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
