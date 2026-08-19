@@ -1,16 +1,15 @@
 ﻿using EmployeeService.DTOs;
-using EmployeeService.Models;
 
 namespace EmployeeService.Services
 {
     // Defines the operations related to departments.
     public interface IDepartmentService
     {
-        Task<Department> CreateDepartmentAsync(
+        Task<DepartmentResponseDto> CreateDepartmentAsync(
             CreateDepartmentDto request);
 
-        Task<List<Department>> GetDepartmentsAsync();
+        Task<List<DepartmentResponseDto>> GetDepartmentsAsync();
 
-        Task<Department?> GetDepartmentByIdAsync(int id);
+        Task<DepartmentResponseDto?> GetDepartmentByIdAsync(int id);
     }
 }

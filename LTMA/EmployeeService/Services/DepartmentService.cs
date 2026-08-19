@@ -16,7 +16,7 @@ namespace EmployeeService.Services
         }
 
         // Creates a new department.
-        public async Task<Department> CreateDepartmentAsync(
+        public async Task<DepartmentResponseDto> CreateDepartmentAsync(
             CreateDepartmentDto request)
         {
             // Check whether a department with the
@@ -41,26 +41,46 @@ namespace EmployeeService.Services
 
             await _context.SaveChangesAsync();
 
-            return department;
+            return new DepartmentResponseDto
+            {
+                Id = department.Id,
+                Name = department.Name
+            };
         }
 
         // Returns all departments.
-        public async Task<List<Department>>
+        public async Task<List<DepartmentResponseDto>>
             GetDepartmentsAsync()
         {
-            return await _context.Departments
-                .Include(d => d.Employees)
+            var departments = await _context.Departments
                 .ToListAsync();
+
+            return departments.Select(department =>
+                new DepartmentResponseDto
+                {
+                    Id = department.Id,
+                    Name = department.Name
+                }).ToList();
         }
 
         // Returns one department using its ID.
-        public async Task<Department?>
+        public async Task<DepartmentResponseDto?>
             GetDepartmentByIdAsync(int id)
         {
-            return await _context.Departments
-                .Include(d => d.Employees)
+            var department = await _context.Departments
                 .FirstOrDefaultAsync(d =>
                     d.Id == id);
+
+            if (department == null)
+            {
+                return null;
+            }
+
+            return new DepartmentResponseDto
+            {
+                Id = department.Id,
+                Name = department.Name
+            };
         }
     }
 }
