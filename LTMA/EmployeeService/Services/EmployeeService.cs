@@ -165,6 +165,15 @@ namespace EmployeeService.Services
                 .FirstOrDefaultAsync(e => e.Id == id);
         }
 
+        // Returns one employee using their email address.
+        public async Task<Employee?> GetEmployeeByEmailAsync(string email)
+        {
+            return await _context.Employees
+                .Include(e => e.Department)
+                .Include(e => e.Manager)
+                .FirstOrDefaultAsync(e => e.Email == email);
+        }
+
         // Returns all employees belonging to a particular department.
         public async Task<List<Employee>> GetEmployeesByDepartmentAsync(int departmentId)
         {
@@ -172,6 +181,16 @@ namespace EmployeeService.Services
                 .Include(e => e.Department)
                 .Include(e => e.Manager)
                 .Where(e => e.DepartmentId == departmentId)
+                .ToListAsync();
+        }
+
+        // Returns employees reporting to a manager.
+        public async Task<List<Employee>> GetEmployeesByManagerIdAsync(int managerId)
+        {
+            return await _context.Employees
+                .Include(e => e.Department)
+                .Include(e => e.Manager)
+                .Where(e => e.ManagerId == managerId)
                 .ToListAsync();
         }
     }

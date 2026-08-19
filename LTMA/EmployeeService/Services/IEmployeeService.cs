@@ -13,8 +13,12 @@ namespace EmployeeService.Services
 
         Task<Employee?> GetEmployeeByIdAsync(int id);
 
+        Task<Employee?> GetEmployeeByEmailAsync(string email);
+
         Task<List<Employee>>
             GetEmployeesByDepartmentAsync(
                 int departmentId);
+
+        Task<List<Employee>> GetEmployeesByManagerIdAsync(int managerId);
     }
 }
