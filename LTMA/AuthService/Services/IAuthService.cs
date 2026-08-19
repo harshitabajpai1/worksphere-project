@@ -6,6 +6,9 @@ namespace AuthService.Services
     // by the authentication service.
     public interface IAuthService
     {
+        // Creates the authentication account for an Employee or Manager.
+        Task CreateUserAsync(CreateUserDto request);
+
         // Logs a user into the system.
         Task<LoginResponseDto> LoginAsync(
             LoginRequestDto request);

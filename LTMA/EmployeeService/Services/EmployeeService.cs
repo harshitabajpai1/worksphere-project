@@ -2,6 +2,8 @@
 using EmployeeService.DTOs;
 using EmployeeService.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
 
 namespace EmployeeService.Services
 {
@@ -9,10 +11,17 @@ namespace EmployeeService.Services
     public class EmployeeService : IEmployeeService
     {
         private readonly EmployeeDbContext _context;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public EmployeeService(EmployeeDbContext context)
+        public EmployeeService(
+            EmployeeDbContext context,
+            IHttpClientFactory httpClientFactory,
+            IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
+            _httpClientFactory = httpClientFactory;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         // Creates either an Employee or a Manager.
@@ -38,6 +47,11 @@ namespace EmployeeService.Services
             if (request.Designation != "Employee" && request.Designation != "Manager")
             {
                 throw new Exception("Designation must be Employee or Manager.");
+            }
+
+            if (string.IsNullOrWhiteSpace(request.InitialPassword))
+            {
+                throw new Exception("Initial password is required.");
             }
 
             // If we are creating a Manager,
@@ -89,6 +103,37 @@ namespace EmployeeService.Services
 
             // Save the employee.
             await _context.SaveChangesAsync();
+
+            // Ask AuthService to create the corresponding authentication
+            // user. Password hashing remains owned by AuthService.
+            var authorizationHeader = _httpContextAccessor.HttpContext?
+                .Request.Headers.Authorization.ToString();
+
+            if (string.IsNullOrWhiteSpace(authorizationHeader))
+            {
+                throw new Exception("Authorization token is required.");
+            }
+
+            var authClient = _httpClientFactory.CreateClient("AuthService");
+            authClient.DefaultRequestHeaders.Authorization =
+                AuthenticationHeaderValue.Parse(authorizationHeader);
+
+            var authResponse = await authClient.PostAsJsonAsync(
+                "api/Auth/users",
+                new
+                {
+                    employee.Name,
+                    employee.Email,
+                    Role = employee.Designation,
+                    Password = request.InitialPassword
+                });
+
+            if (!authResponse.IsSuccessStatusCode)
+            {
+                var error = await authResponse.Content.ReadAsStringAsync();
+                throw new Exception(
+                    $"AuthService could not create the user: {error}");
+            }
 
             // Load the department navigation property.
             await _context.Entry(employee).Reference(e => e.Department).LoadAsync();

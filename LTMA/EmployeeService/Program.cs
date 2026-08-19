@@ -9,13 +9,7 @@ using Microsoft.OpenApi;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add controller support.
-//builder.Services.AddControllers();
-builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.ReferenceHandler =
-            System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
-    });
+builder.Services.AddControllers();
 
 // Connect EmployeeService to its own database.
 builder.Services.AddDbContext<EmployeeDbContext>(
@@ -23,6 +17,25 @@ builder.Services.AddDbContext<EmployeeDbContext>(
         options.UseSqlServer(
             builder.Configuration
                 .GetConnectionString("EmployeeConnection")));
+
+// EmployeeService uses this client to create authentication users
+// through AuthService without accessing WorkSphereAuthDB directly.
+builder.Services.AddHttpClient("AuthService", client =>
+{
+    var authServiceBaseUrl =
+        builder.Configuration["AuthService:BaseUrl"];
+
+    if (string.IsNullOrWhiteSpace(authServiceBaseUrl))
+    {
+        throw new InvalidOperationException(
+            "AuthService:BaseUrl configuration is required.");
+    }
+
+    client.BaseAddress = new Uri(authServiceBaseUrl);
+});
+
+// Makes the incoming SuperAdmin JWT available for forwarding to AuthService.
+builder.Services.AddHttpContextAccessor();
 
 // Register department business logic.
 builder.Services.AddScoped<

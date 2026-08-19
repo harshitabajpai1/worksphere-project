@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\AuthService\\AuthService.csproj": {}
+    "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\AuthService\\AuthService.csproj": {}
   },
   "projects": {
-    "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\AuthService\\AuthService.csproj": {
+    "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\AuthService\\AuthService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\AuthService\\AuthService.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\AuthService\\AuthService.csproj",
         "projectName": "AuthService",
-        "projectPath": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\AuthService\\AuthService.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\cg_dotnet_harshita\\LTMA_project\\LTMA\\AuthService\\obj\\",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\AuthService\\AuthService.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\AuthService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -14,5 +14,9 @@
         // "Manager"
         // "Employee"
         public string Designation { get; set; } = string.Empty;
+
+        // Sent securely by the SuperAdmin when the account is created.
+        // EmployeeService forwards it to AuthService and never stores it.
+        public string InitialPassword { get; set; } = string.Empty;
     }
 }

@@ -32,6 +32,23 @@ namespace AuthService.Controllers
             return Ok(result);
         }
 
+        // Creates the authentication account for an Employee or Manager
+        // that was registered through EmployeeService.
+        //
+        // POST: /api/Auth/users
+        [HttpPost("users")]
+        [Authorize(Roles = "SuperAdmin")]
+        public async Task<IActionResult> CreateUser(
+            CreateUserDto request)
+        {
+            await _authService.CreateUserAsync(request);
+
+            return Ok(new
+            {
+                message = "User created successfully."
+            });
+        }
+
         // Changes the password of the logged-in user.
         //
         // POST: /api/Auth/change-password

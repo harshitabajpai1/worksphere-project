@@ -23,6 +23,50 @@ namespace AuthService.Services
             _jwtService = jwtService;
         }
 
+        public async Task CreateUserAsync(
+            CreateUserDto request)
+        {
+            if (string.IsNullOrWhiteSpace(request.Name) ||
+                string.IsNullOrWhiteSpace(request.Email) ||
+                string.IsNullOrWhiteSpace(request.Password))
+            {
+                throw new Exception(
+                    "Name, email and password are required.");
+            }
+
+            if (request.Role != "Employee" &&
+                request.Role != "Manager")
+            {
+                throw new Exception(
+                    "Role must be Employee or Manager.");
+            }
+
+            var existingUser = await _context.Users
+                .AnyAsync(user => user.Email == request.Email);
+
+            if (existingUser)
+            {
+                throw new Exception(
+                    "User with this email already exists.");
+            }
+
+            var user = new User
+            {
+                Name = request.Name,
+                Email = request.Email,
+                Role = request.Role,
+                IsActive = true,
+                CreatedAt = DateTime.UtcNow
+            };
+
+            user.PasswordHash = _passwordHasher.HashPassword(
+                user,
+                request.Password);
+
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<LoginResponseDto> LoginAsync(
             LoginRequestDto request)
         {
