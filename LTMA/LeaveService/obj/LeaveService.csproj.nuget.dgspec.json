@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\LeaveService.csproj": {}
+    "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\LeaveService.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\LeaveService.csproj": {
+    "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\LeaveService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\LeaveService.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\LeaveService.csproj",
         "projectName": "LeaveService",
-        "projectPath": "c:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\LeaveService.csproj",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\LeaveService.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\obj\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\worksphere-project\\LTMA\\LeaveService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
