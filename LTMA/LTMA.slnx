@@ -1,6 +1,10 @@
 <Solution>
   <Project Path="AuthService/AuthService.csproj" Id="2503750e-6d87-409f-90ee-949d79bd1dcf" />
+  <Project Path="AuthService.Tests/AuthService.Tests.csproj" Id="77a7c233-0179-4301-8773-b2fd17aa0f88" />
   <Project Path="EmployeeService/EmployeeService.csproj" Id="3419af4f-887b-4f6d-9ef3-6d6b7138978b" />
+  <Project Path="EmployeeService.Tests/EmployeeService.Tests.csproj" Id="3099f520-3284-4a90-a434-a802f7be9ba1" />
   <Project Path="LeaveService/LeaveService.csproj" Id="63c28923-7e2f-4a76-9a1d-273beb4d6e3e" />
+  <Project Path="LeaveService.Tests/LeaveService.Tests.csproj" Id="614c9e9c-080d-458b-990a-73d9687f1b43" />
   <Project Path="TimesheetService/TimesheetService.csproj" Id="9d2d1b9f-b979-4ae8-a8c9-52f04f4c07d3" />
+  <Project Path="TimesheetService.Tests/TimesheetService.Tests.csproj" Id="a3c96779-f535-465e-aa3f-ee330f67cd4d" />
 </Solution>
